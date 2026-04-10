@@ -419,7 +419,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
+		(symbol "Diode:SM4007"
 			(pin_numbers
 				(hide yes)
 			)
@@ -437,7 +437,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4148"
+			(property "Value" "SM4007"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -445,7 +445,16 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_MELF"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -454,16 +463,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -499,7 +499,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
+			(property "ki_fp_filters" "D*MELF*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -508,7 +508,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4148_0_1"
+			(symbol "SM4007_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -546,7 +546,7 @@
 					)
 				)
 			)
-			(symbol "1N4148_1_1"
+			(symbol "SM4007_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1249,16 +1249,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 71.12) (xy 99.06 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b3a90e1-109a-4213-83a4-b4304cfea9c4")
-	)
-	(wire
-		(pts
 			(xy 124.46 81.28) (xy 127 81.28)
 		)
 		(stroke
@@ -1408,7 +1398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 102.87 88.9 0)
 			(effects
 				(font
@@ -1436,7 +1426,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fdbb5164-00a6-4422-b041-3b82cb9bf7ba")
+			(uuid "08b90383-dcae-4a8e-b3f4-cf81ee449fd0")
 		)
 		(instances
 			(project "Furnace_Controller"
@@ -1446,6 +1436,14 @@
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
 					(reference "TP4")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "TP28")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "TP26")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
@@ -1478,7 +1476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Relay_GND"
+		(property "Value" "Logic_GND"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -1514,7 +1512,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "47b38d06-f8ee-4229-8b3d-cc6f175fb25e")
+			(uuid "fed25835-3cc4-42a7-bb24-6f82cd63bd6c")
 		)
 		(instances
 			(project "Furnace_Controller"
@@ -1524,6 +1522,14 @@
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
 					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
@@ -1563,7 +1569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.22 91.948 90)
 			(effects
 				(font
@@ -1591,10 +1597,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "81cfdc76-9d9e-4661-990e-25ac3541d023")
+			(uuid "ec7a8cb5-6724-48f2-aa49-9d5af56c2a31")
 		)
 		(pin "1"
-			(uuid "1ddff30b-1157-4c7c-9f60-bb593b5eb803")
+			(uuid "6e0b2b08-206d-4181-b5d5-0a97ceba5a36")
 		)
 		(instances
 			(project "Furnace_Controller"
@@ -1604,6 +1610,14 @@
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
@@ -1645,7 +1659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.092 101.6 90)
 			(effects
 				(font
@@ -1673,10 +1687,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b63fd01-94af-44b1-9f58-7b3a27779399")
+			(uuid "97fa5142-b151-460c-b41d-98c3ef2d6a73")
 		)
 		(pin "1"
-			(uuid "3a98f52f-7318-4546-ad43-6c4a855b5158")
+			(uuid "6cdae637-612f-440d-aedf-d9c092aa6a4f")
 		)
 		(instances
 			(project "Furnace_Controller"
@@ -1686,6 +1700,14 @@
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
@@ -1727,7 +1749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 101.6 90)
 			(effects
 				(font
@@ -1755,10 +1777,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "91fa8e1b-1e7c-42ea-bd5b-daf68fc56341")
+			(uuid "3e15b89d-351b-4c4b-b5db-721517cc7a75")
 		)
 		(pin "2"
-			(uuid "aa0a8046-49bf-4b20-b547-1e91093922d8")
+			(uuid "80337dc6-58e6-4f15-8b8e-2d7623aacc1c")
 		)
 		(instances
 			(project "Furnace_Controller"
@@ -1768,6 +1790,14 @@
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
@@ -1800,7 +1830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLZ44N"
+		(property "Value" "HL3402"
 			(at 128.27 91.4399 0)
 			(effects
 				(font
@@ -1809,7 +1839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 127 92.075 0)
 			(effects
 				(font
@@ -1840,13 +1870,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "37ffc756-77ef-4273-9ffa-eaae8cc11aa0")
+			(uuid "93def565-22e6-442f-95f5-57d7684b295c")
 		)
 		(pin "1"
-			(uuid "28d350da-7c26-4ec1-9e51-bad11630ceae")
+			(uuid "804adf1c-3afe-4849-bb2e-cf69e3df59a5")
 		)
 		(pin "3"
-			(uuid "2a90c109-5fc0-4ab0-8491-80c6cfd43735")
+			(uuid "05191fa8-4308-46a1-89d3-ecb387b6e266")
 		)
 		(instances
 			(project "Furnace_Controller"
@@ -1858,12 +1888,128 @@
 					(reference "Q2")
 					(unit 1)
 				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "Q5")
+					(unit 1)
+				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
 					(reference "Q3")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/fb832de1-ab71-4034-90f6-c1ea1c7168cf"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM4007")
+		(at 121.92 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb1ce5a-8789-42f7-a209-775e51959259")
+		(property "Reference" "D16"
+			(at 124.46 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM4007"
+			(at 124.46 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 117.475 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572f5eee-f05b-454c-b66a-68cc3e5bcc0b")
+		)
+		(pin "2"
+			(uuid "699a6551-be12-4044-8f15-8f4466bb75b1")
+		)
+		(instances
+			(project ""
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/10739d2b-531e-4bc8-a3ad-2730943f00b0"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/fb832de1-ab71-4034-90f6-c1ea1c7168cf"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -1897,7 +2043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 102.87 93.98 0)
 			(effects
 				(font
@@ -1934,10 +2080,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2812123c-060c-48b1-8866-cbd199088dbe")
+			(uuid "6cb500de-b1cd-4cf5-b19a-6b42051384d1")
 		)
 		(pin "1"
-			(uuid "6a6a2958-8432-4472-ac33-477cdbcd50d0")
+			(uuid "e5e56a31-b958-41c2-970d-6c8a02694a62")
 		)
 		(instances
 			(project "Furnace_Controller"
@@ -1949,90 +2095,20 @@
 					(reference "D3")
 					(unit 1)
 				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "D1")
+					(unit 1)
+				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
 					(reference "D5")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/fb832de1-ab71-4034-90f6-c1ea1c7168cf"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 99.06 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b7c1a7b-c474-461e-be0c-c8ffce0e99cb")
-		(property "Reference" "#PWR027"
-			(at 99.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Logic_GND"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a97614ee-815b-49c2-b714-36ba9d49227d")
-		)
-		(instances
-			(project ""
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/10739d2b-531e-4bc8-a3ad-2730943f00b0"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
-					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/fb832de1-ab71-4034-90f6-c1ea1c7168cf"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2093,7 +2169,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e77e7b27-e829-4828-9683-c5183f059f93")
+			(uuid "ef0749f5-6f32-422e-a8a4-a7792e31b282")
 		)
 		(instances
 			(project "Furnace_Controller"
@@ -2103,6 +2179,14 @@
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
 					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
@@ -2171,7 +2255,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "05a82a90-beea-4767-93ba-126b918ae18f")
+			(uuid "212f38d8-1da3-4f94-bdfa-216efabfde9f")
 		)
 		(instances
 			(project ""
@@ -2180,194 +2264,23 @@
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
-					(reference "#PWR025")
+					(reference "#PWR0104")
 					(unit 1)
 				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/1209b19d-4b1a-4426-8d6b-96fde6f645e8"
 					(reference "#PWR026")
 					(unit 1)
 				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/fb832de1-ab71-4034-90f6-c1ea1c7168cf"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 121.92 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dee14978-c645-4a1c-b7f3-f595163d24e8")
-		(property "Reference" "D2"
-			(at 124.46 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 124.46 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "49f89864-04e9-4a28-8174-452c96324f75")
-		)
-		(pin "1"
-			(uuid "55812aae-730d-4b3a-a235-e5607c2fc91f")
-		)
-		(instances
-			(project "Furnace_Controller"
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/10739d2b-531e-4bc8-a3ad-2730943f00b0"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
-					(reference "D4")
+				(path "/bdaff202-8468-4407-a79f-033879d9c165/320e4739-6b7c-4105-9eef-1aa71e4030b0"
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
-					(reference "D7")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/bdaff202-8468-4407-a79f-033879d9c165/fb832de1-ab71-4034-90f6-c1ea1c7168cf"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e520d117-6d22-4ee2-b1c6-c63dc9d47a77")
-		(property "Reference" "TP7"
-			(at 101.6 66.5479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LGND_TP"
-			(at 101.6 69.0879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 104.14 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca6d2c33-5c03-413c-9474-b9871aa23921")
-		)
-		(instances
-			(project "Furnace_Controller"
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/10739d2b-531e-4bc8-a3ad-2730943f00b0"
-					(reference "TP7")
-					(unit 1)
-				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/115dcd2a-efea-4085-8de2-bce32a73e930"
-					(reference "TP5")
-					(unit 1)
-				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/6cb745b2-8f00-4881-9c5f-38027f0001a6"
-					(reference "TP8")
-					(unit 1)
-				)
-				(path "/bdaff202-8468-4407-a79f-033879d9c165/fb832de1-ab71-4034-90f6-c1ea1c7168cf"
-					(reference "TP9")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
