@@ -1,0 +1,17 @@
+.1663969 :1 ;RJ45 PCB connector, number of positions: 8, 100 Mbps
+"1663969"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=P1 4=P2 5=P3 6=P4 7=P5 8=P6 9=P7 10=P8
+*PLB 1="MH1" 2="MH2" 3="P1" 4="P2" 5="P3" 6="P4" 7="P5" 8="P6" 9="P7" 10="P8"
+*MXP 12
+*DFN 1663969
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1663969)
+~!Link Datasheet (https://www.phoenixcontact.com/en-ae/products/rj45-pcb-connector-cuc-ib4m-j1st-at-r4t-p-1663969)
+~!Height (15.98mm)
+~!3D_Model (1663969)
+"1663969"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP THVD2450DR
+D +/-70-V fault-protected 3.3-V to 5-V RS-485 transceiver with IEC ESD
+K
+F http://www.ti.com/lit/gpn/THVD2450
+$ENDCMP
+#
+#End Doc Library

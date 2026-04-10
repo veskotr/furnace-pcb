@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1663969'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1663969" (!) = "", "1663969", "Other", "", "", "RJ45 PCB connector, number of positions: 8, 100 Mbps", "https://www.phoenixcontact.com/en-ae/products/rj45-pcb-connector-cuc-ib4m-j1st-at-r4t-p-1663969", "15.98 mm"
+END_PART
+
+END.

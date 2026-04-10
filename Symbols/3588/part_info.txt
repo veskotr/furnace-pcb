@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=3588
+PartCategory=Fuse
+PackageCategory=Other
+PinCount=4
+Version=3.3
+Released=2019-12-14 20:49:08
+Downloaded=2026-02-04 20:47:51
+3D=Y

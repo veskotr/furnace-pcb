@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'THVD2450DR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "THVD2450DR" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-THVD2450DR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD2450DR?qs=%252B6g0mu59x7KnRZ8zf%2FOjqQ%3D%3D", "+/-70-V fault-protected 3.3-V to 5-V RS-485 transceiver with IEC ESD", "http://www.ti.com/lit/gpn/THVD2450", "1.75 mm"
+END_PART
+
+END.

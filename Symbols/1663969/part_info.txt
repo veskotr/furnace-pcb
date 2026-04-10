@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1663969
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=2.4
+Released=2024-11-24 06:18:47
+Downloaded=2026-02-04 19:05:11
+3D=Y

@@ -1,0 +1,137 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "3588"
+   (description "Fuse Holder SMT MINI FUSE HOLDER .630 X .290")
+   (family "FUS")
+   (package "3588")
+   (attribute "Datasheet Link" "https://www.keyelco.com/product-pdf.cfm?p=311")
+   (attribute "Mouser Part Number" "534-3588")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3588?qs=%2F%252BPMR94VuMZoVX%252BPrVg9MA%3D%3D")
+   (attribute "Manufacturer_Name" "Keystone Electronics")
+   (attribute "Manufacturer_Part_Number" "3588")
+   (gate
+    (symbol "3588")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "3588"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "3588"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8 3.365)
+      (pt 8 3.365)
+      (pt 8 -3.365)
+      (pt -8 -3.365)
+      (pt -8 3.365))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9 5.44)
+      (pt 9 5.44)
+      (pt 9 -5.44)
+      (pt -9 -5.44)
+      (pt -9 5.44))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.5 3.365)
+      (pt 3.5 3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.5 -3.365)
+      (pt -3.5 -3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6.5 3.365)
+      (pt -8 3.365)
+      (pt -8 -3.365)
+      (pt -6.5 -3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6.5 3.365)
+      (pt 8 3.365)
+      (pt 8 -3.365)
+      (pt 6.5 -3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.96 -5)
+      (arc (pt -4.960 -5.000) (pt -5.010 -5.000) (pt -4.910 -4.900) (start 180.0) (sweep -90.0))
+      (pt -4.96 -4.9)
+      (arc (pt -4.960 -4.900) (pt -5.010 -5.000) (pt -4.910 -4.900) (start 180.0) (sweep 90.0))
+      (pt -4.96 -5))))
+   (leg 1 (pt -4.960 -3.030) (padstack 0))
+   (leg 2 (pt 4.960 -3.030) (padstack 0))
+   (leg 3 (pt 4.960 3.030) (padstack 0))
+   (leg 4 (pt -4.960 3.030) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.570 2.820 0 0 90.000))
+   )
+   (model "3588.stp"
+    (euler 90 0 0)
+    (offset -0.10000000149011612 -0.3700000047683716 3.7200000286102295)
+   )
+  )
+ )
+)

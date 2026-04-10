@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRR1260-330M
+D Power inductor SMD shielded 33uH Bourns SRR1260 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 33 uH +/-20% Wire-Wound 3A Idc Q:27
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRR1260.pdf
+$ENDCMP
+#
+#End Doc Library
