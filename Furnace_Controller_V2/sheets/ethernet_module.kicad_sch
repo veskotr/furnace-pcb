@@ -2832,7 +2832,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2857,7 +2857,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2889,7 +2889,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2911,7 +2911,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2949,7 +2949,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2971,7 +2971,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
+		(symbol "power:+3V3A"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2996,7 +2996,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3VA"
+			(property "Value" "+3V3A"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3028,7 +3028,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3050,7 +3050,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_0_1"
+			(symbol "+3V3A_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -3088,7 +3088,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_1_1"
+			(symbol "+3V3A_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5255,7 +5255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 104.14 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -5277,7 +5277,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 104.14 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,7 +5309,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 104.14 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5575,7 +5575,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 26.67 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -5597,7 +5597,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 26.67 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5629,7 +5629,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 26.67 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5653,7 +5653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 252.73 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -5675,7 +5675,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 252.73 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,7 +5707,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 252.73 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5965,7 +5965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "power:+3V3A")
 		(at 154.94 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -5987,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 154.94 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 154.94 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -6671,7 +6671,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 35.56 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -6693,7 +6693,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 35.56 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +6725,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 35.56 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6831,7 +6831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "power:+3V3A")
 		(at 218.44 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -6853,7 +6853,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 218.44 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,7 +6885,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7073,7 +7073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "power:+3V3A")
 		(at 182.88 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -7095,7 +7095,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 182.88 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +7127,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 182.88 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7242,7 +7242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 63.5 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -7264,7 +7264,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 63.5 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7296,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7558,7 +7558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "power:+3V3A")
 		(at 110.49 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -7580,7 +7580,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 110.49 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7886,7 +7886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "power:+3V3A")
 		(at 207.01 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -7908,7 +7908,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 207.01 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +7940,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 207.01 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7964,7 +7964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "power:+3V3A")
 		(at 264.16 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -7986,7 +7986,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 264.16 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +8018,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 264.16 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8318,7 +8318,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 44.45 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -8340,7 +8340,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 44.45 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8372,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 44.45 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8634,7 +8634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 53.34 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -8656,7 +8656,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 53.34 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8688,7 +8688,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9045,7 +9045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "power:+3V3A")
 		(at 194.31 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -9067,7 +9067,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3V3A"
 			(at 194.31 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3A\""
 			(at 194.31 124.46 0)
 			(hide yes)
 			(show_name no)
