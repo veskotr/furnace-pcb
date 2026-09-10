@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TI_Logic")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Symbols/TXU0101DBVR/KiCad/TXU0101DBVR.kicad_sym")(options "")(descr "Texas Instruments logic-level translators"))
+  (lib (name "TI_RS485")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Symbols/THVD2450DR/KiCad/THVD2450DR.kicad_sym")(options "")(descr "Texas Instruments RS-485 transceivers"))
+  (lib (name "TI_RS422")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Symbols/THVD2452V/KiCADv6/thvd2452v.kicad_sym")(options "")(descr "Texas Instruments RS-422 transceivers"))
+  (lib (name "TI_Supervisor")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Symbols/tps36-q1/KiCADv6/2026-09-06_12-13-42.kicad_sym")(options "")(descr "Texas Instruments voltage supervisors"))
+)

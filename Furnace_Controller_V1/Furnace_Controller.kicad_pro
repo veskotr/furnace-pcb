@@ -476,7 +476,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -487,7 +487,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -498,19 +498,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.4,
-        "name": "+3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 1.2,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
       },
       {
         "clearance": 0.4,
@@ -518,19 +508,19 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.2,
-        "via_diameter": 0.8,
-        "via_drill": 0.4
+        "track_width": 2.5,
+        "via_diameter": 1.4,
+        "via_drill": 0.7
       },
       {
         "clearance": 0.4,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 2.5,
+        "via_diameter": 1.4,
+        "via_drill": 0.7
       },
       {
         "clearance": 0.4,
@@ -538,34 +528,30 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 1.2,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "+3V3",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "+5V",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "+24V",
-        "pattern": "+24V"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_assignments": {
+      "+24V": [
+        "+24V"
+      ],
+      "+5V": [
+        "+5V"
+      ],
+      "/5V Power Converter/Power In": [
+        "+24V"
+      ],
+      "Logic_GND": [
+        "GND"
+      ]
+    },
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -575,7 +561,7 @@
       "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Furnace_Controller.step",
+      "step": "documentation/Furnace_Controller.step",
       "svg": "",
       "vrml": ""
     },
@@ -759,7 +745,7 @@
     ],
     [
       "c9b1dc5a-0ee9-4a40-874f-acab2d2276e1",
-      "Power Supply"
+      "5V Power Converter"
     ],
     [
       "a4a4da05-63e1-471c-abfb-f97ac386cd20",
@@ -780,14 +766,6 @@
     [
       "6cb745b2-8f00-4881-9c5f-38027f0001a6",
       "Relay Driver3"
-    ],
-    [
-      "320e4739-6b7c-4105-9eef-1aa71e4030b0",
-      "Relay Driver4"
-    ],
-    [
-      "1209b19d-4b1a-4426-8d6b-96fde6f645e8",
-      "Relay Driver5"
     ]
   ],
   "text_variables": {}
