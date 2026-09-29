@@ -1,0 +1,1347 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "222f6e09-3254-4f59-a5cf-b940115f901c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SM4007"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM4007"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MELF"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*MELF*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SM4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM4007_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:IRLZ44N"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRLZ44N"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRLZ44N_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRLZ44N_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 124.46 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22a343da-3f40-442d-b319-e1b9b641847e")
+	)
+	(junction
+		(at 115.57 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a29614a8-3622-41f6-b4ca-428c6ca83bc5")
+	)
+	(wire
+		(pts
+			(xy 93.98 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e77499d-e9a1-4ab7-bde6-7f2da2c18461")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e20917e-c781-485f-b984-9d4c18a6cdec")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 115.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d4e34f-4576-41f6-9b38-e76473e6753b")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbbec70-529d-4708-81ac-42162d13c1b7")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3eec3e-9ca6-483d-a808-9b0a32223f94")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6e3497-7d27-4ece-92b6-0c44ad3aeb6f")
+	)
+	(wire
+		(pts
+			(xy 124.46 95.25) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8659a7fb-afd8-4f7b-9062-055ec5448542")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b63d1f8-161f-4360-b6e9-afdb37851f4e")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30f70b7-7dd2-48c1-abd6-bb7a83128c28")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7de02c3-cddc-401d-9fce-64f56ee8d945")
+	)
+	(hierarchical_label "VSS"
+		(shape input)
+		(at 124.46 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ef8781b-c9ee-49c9-b19e-7fda8b554a7e")
+	)
+	(hierarchical_label "RELAY_COIL_IN"
+		(shape input)
+		(at 127 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "690d1aa7-31e9-4257-b188-c9488cdb52ef")
+	)
+	(hierarchical_label "RELAY_COIL_SW"
+		(shape input)
+		(at 127 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b35502d2-7f60-4f9a-9aac-476408bab940")
+	)
+	(hierarchical_label "RELAY_CTRL"
+		(shape input)
+		(at 93.98 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3d58a86-84bf-4b30-aa32-b6bd3ac90b78")
+	)
+	(hierarchical_label "VSS"
+		(shape input)
+		(at 115.57 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f646af84-241c-4b09-9640-d42fccc8e218")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09cb4d53-7f5e-4c94-9f47-45d82708eca7")
+		(property "Reference" "R10"
+			(at 109.22 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 109.22 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 91.948 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90ac9a62-f654-42dc-86db-9b057480918d")
+		)
+		(pin "1"
+			(uuid "b31d7cbc-a713-467b-b669-ca53deae9b3a")
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/071ff54a-08fb-41e0-9e7a-bfc9396b9e11"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1056d88a-16a5-42d3-bb29-3c8ae3066912"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/18ebd437-513d-4e0a-9f24-1eda8b88acbb"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3d33f6fe-1c85-46b5-9f1f-6d75908b2892"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f083164-2c1b-46ad-bac6-1cba0618d77d"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/5febed0a-6d71-4d33-9e32-126d6baf4837"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/62ddb925-2570-4e27-a6a5-b825f7d87bb8"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/6c06f731-1204-4271-9a02-70bea91b63fa"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/79820460-58ba-4602-bbf4-cb0747516095"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2e66989-074d-4f5d-847c-2b4d949047fc"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27d89e3d-19e3-47b1-93d4-732bcbb24a3e")
+		(property "Reference" "R11"
+			(at 118.11 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 118.11 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.792 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4299f656-0e4f-43f0-b039-b77c03ba3156")
+		)
+		(pin "2"
+			(uuid "ef1d83c4-0e98-423c-8198-8828ad4b0a2f")
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/071ff54a-08fb-41e0-9e7a-bfc9396b9e11"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1056d88a-16a5-42d3-bb29-3c8ae3066912"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/18ebd437-513d-4e0a-9f24-1eda8b88acbb"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3d33f6fe-1c85-46b5-9f1f-6d75908b2892"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f083164-2c1b-46ad-bac6-1cba0618d77d"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/5febed0a-6d71-4d33-9e32-126d6baf4837"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/62ddb925-2570-4e27-a6a5-b825f7d87bb8"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/6c06f731-1204-4271-9a02-70bea91b63fa"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/79820460-58ba-4602-bbf4-cb0747516095"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2e66989-074d-4f5d-847c-2b4d949047fc"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 121.92 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a70a90a-a13d-4421-b2a5-bfcd36120e62")
+		(property "Reference" "Q1"
+			(at 128.27 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20N04-MS"
+			(at 128.27 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-89"
+			(at 127 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 127 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 121.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "11ab621c-6e4e-4fca-875b-c8ed21485e81")
+		)
+		(pin "1"
+			(uuid "e9f130aa-3aa1-450f-bdd5-0e11972db3c7")
+		)
+		(pin "3"
+			(uuid "64b8e385-ba4f-450a-9bce-46b0c6faa7c1")
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/071ff54a-08fb-41e0-9e7a-bfc9396b9e11"
+					(reference "Q10")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1056d88a-16a5-42d3-bb29-3c8ae3066912"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/18ebd437-513d-4e0a-9f24-1eda8b88acbb"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3d33f6fe-1c85-46b5-9f1f-6d75908b2892"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f083164-2c1b-46ad-bac6-1cba0618d77d"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/5febed0a-6d71-4d33-9e32-126d6baf4837"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/62ddb925-2570-4e27-a6a5-b825f7d87bb8"
+					(reference "Q12")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/6c06f731-1204-4271-9a02-70bea91b63fa"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/79820460-58ba-4602-bbf4-cb0747516095"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2e66989-074d-4f5d-847c-2b4d949047fc"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM4007")
+		(at 121.92 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb1ce5a-8789-42f7-a209-775e51959259")
+		(property "Reference" "D3"
+			(at 124.46 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM4007"
+			(at 124.46 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 117.475 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b0420ec-5835-4b4f-a79e-88b2b9850586")
+		)
+		(pin "2"
+			(uuid "7b251428-fa7c-42ef-9152-db913fa167d2")
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/071ff54a-08fb-41e0-9e7a-bfc9396b9e11"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1056d88a-16a5-42d3-bb29-3c8ae3066912"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/18ebd437-513d-4e0a-9f24-1eda8b88acbb"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3d33f6fe-1c85-46b5-9f1f-6d75908b2892"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f083164-2c1b-46ad-bac6-1cba0618d77d"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/5febed0a-6d71-4d33-9e32-126d6baf4837"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/62ddb925-2570-4e27-a6a5-b825f7d87bb8"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/6c06f731-1204-4271-9a02-70bea91b63fa"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/79820460-58ba-4602-bbf4-cb0747516095"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2e66989-074d-4f5d-847c-2b4d949047fc"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

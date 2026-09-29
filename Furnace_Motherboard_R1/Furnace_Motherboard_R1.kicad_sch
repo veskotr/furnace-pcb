@@ -1,0 +1,1754 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "43d4b116-7476-4705-a5a8-f2a03f21058e")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 210.312 165.1)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "071ff54a-08fb-41e0-9e7a-bfc9396b9e11")
+		(property "Sheetname" "Relay Driver9"
+			(at 210.312 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 210.312 183.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 240.284 168.148 0)
+			(uuid "512a4f91-61c3-40c6-8631-f3b0c56ee776")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 240.284 171.958 0)
+			(uuid "20f97812-7b23-42e4-8b01-7b0e617e36b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 210.312 171.958 180)
+			(uuid "e401568e-642a-418d-b104-d6d91e28bde9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 224.536 182.88 270)
+			(uuid "9b7aeed8-6052-4ed6-a080-63abd9974588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.312 118.618)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1056d88a-16a5-42d3-bb29-3c8ae3066912")
+		(property "Sheetname" "Relay Driver3"
+			(at 210.312 117.9064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 210.312 136.9826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 240.284 121.666 0)
+			(uuid "e404d001-5b6c-48cb-8b84-84ac60055cdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 240.284 125.476 0)
+			(uuid "cb1d757d-4b7d-4979-aa50-ca9218cae03a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 210.312 125.476 180)
+			(uuid "07e8cdee-331a-4250-9e49-7ae414e67a50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 224.536 136.398 270)
+			(uuid "9ada4571-0bcf-4323-a008-5e20c5682645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 288.798 50.8)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "18ebd437-513d-4e0a-9f24-1eda8b88acbb")
+		(property "Sheetname" "Relay Driver4"
+			(at 288.798 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 288.798 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 318.77 53.848 0)
+			(uuid "f66ef385-5dfa-40d1-980f-34199ae5d2ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 318.77 57.658 0)
+			(uuid "352c9350-4795-45c6-828d-b9e9891d371d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 288.798 57.658 180)
+			(uuid "8fcd72e1-1a3a-4390-85b8-9102b436a234")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 303.022 68.58 270)
+			(uuid "f03cd645-b69d-43d6-ba7a-79413412a205")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 70.612 84.836)
+		(size 70.358 129.286)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "26d4bebe-4b82-4591-a549-5ceac1283d49")
+		(property "Sheetname" "MAIN_MCU"
+			(at 70.612 84.1244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main_mcu.kicad_sch"
+			(at 70.612 214.7066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 47.244)
+		(size 12.7 17.018)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3172dcfb-3c78-437a-858c-6ce7db97375b")
+		(property "Sheetname" "External_flash_module"
+			(at 139.7 46.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ex_flash_module.kicad_sch"
+			(at 139.7 64.8466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 139.7 61.976 180)
+			(uuid "0a4ddb12-f973-453b-96c7-05c74c53131a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 146.05 64.262 270)
+			(uuid "83ecdb01-06ff-4c69-bba2-7473f60703cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_{0}" bidirectional
+			(at 139.7 51.816 180)
+			(uuid "36046509-a306-4a39-b00c-418b78263158")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_{1}" bidirectional
+			(at 139.7 54.356 180)
+			(uuid "a1fc7ab9-adb0-44ec-a588-5a0c54b48d15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_{2}" bidirectional
+			(at 139.7 56.896 180)
+			(uuid "c81c1bdd-d2b9-4022-b626-71ae64b70026")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_{3}" bidirectional
+			(at 139.7 59.436 180)
+			(uuid "58abdc31-303e-4528-b023-10d5556d16a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 146.05 47.244 90)
+			(uuid "c6be3fa1-8722-437a-ab4b-1cd77e1eb041")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CS}" input
+			(at 139.7 49.276 180)
+			(uuid "c2244edf-5ad5-44bb-936e-1837e20815d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.566 187.96)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3d33f6fe-1c85-46b5-9f1f-6d75908b2892")
+		(property "Sheetname" "Relay Driver10"
+			(at 210.566 187.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 210.566 206.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 240.538 191.008 0)
+			(uuid "ba125571-5708-451d-baa7-8004bea992d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 240.538 194.818 0)
+			(uuid "c864c0bd-7dcc-47e8-8ee5-c85f8f21849e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 210.566 194.818 180)
+			(uuid "22a050b7-6869-42c8-9f8d-92589e36653e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 224.79 205.74 270)
+			(uuid "1718a67d-f8a9-4890-974c-0d188e0a8a48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.312 142.494)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4f083164-2c1b-46ad-bac6-1cba0618d77d")
+		(property "Sheetname" "Relay Driver8"
+			(at 210.312 141.7824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 210.312 160.8586 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 240.284 145.542 0)
+			(uuid "b05eff8c-e049-40a7-8341-abbd2cc30a4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 240.284 149.352 0)
+			(uuid "53782e1c-8944-4188-83a3-8c02ab16e5e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 210.312 149.352 180)
+			(uuid "ac07a6af-c457-4705-b348-b0916b326786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 224.536 160.274 270)
+			(uuid "36e90e3e-1fa0-4cac-8950-afe5d5c801c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.566 49.022)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4f7589b5-9baa-4b4e-937a-b69529cb529b")
+		(property "Sheetname" "Heater Contactor Driver"
+			(at 210.566 48.3104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 210.566 67.3866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 240.538 52.07 0)
+			(uuid "c41ce547-bab8-4390-851d-2cc70dd7e0a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 240.538 55.88 0)
+			(uuid "ba6fa9cf-0c5a-4603-896f-d16d2865581a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 210.566 55.88 180)
+			(uuid "e36badb8-c881-42b5-9b72-57cde87f4056")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 224.79 66.802 270)
+			(uuid "5d4bea0d-2df1-4512-b8ef-97af48429af5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 236.22)
+		(size 12.7 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "57b4129e-afdd-4a4f-bda5-255cd6f5afd3")
+		(property "Sheetname" "supervisor_module"
+			(at 124.46 235.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supervisor_module.kicad_sch"
+			(at 124.46 254.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "*RESET" output
+			(at 124.46 243.332 180)
+			(uuid "8f0947be-b8ed-4e22-93b3-9246ac4f5758")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 130.556 254 270)
+			(uuid "25383c95-c5e8-4264-904e-c20af07e9648")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 130.556 236.22 90)
+			(uuid "e42f23c6-adbd-444d-a2bd-5865c06a6789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WDI" input
+			(at 124.46 247.142 180)
+			(uuid "49270497-0046-4bcd-85a0-d99fc26d5a25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.068 167.894)
+		(size 13.208 11.938)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c7b5b36-dd75-4687-8485-33550005fe43")
+		(property "Sheetname" "rs485-module"
+			(at 163.068 167.1824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs485-module.kicad_sch"
+			(at 163.068 180.4166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 176.276 170.434 0)
+			(uuid "62bce07f-7b79-41d9-87ff-3b21a7bc2431")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B" input
+			(at 176.276 172.974 0)
+			(uuid "7b2525ba-c420-4ac6-828a-ab6c4f727116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DE" input
+			(at 163.068 176.784 180)
+			(uuid "489cb9f8-8a0c-4c1f-bb63-1b3af9745001")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 169.672 179.832 270)
+			(uuid "82fa6c5a-f5e9-4ef8-8a40-d9ea2a061978")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" input
+			(at 163.068 172.974 180)
+			(uuid "86ff1347-f395-40a1-9ba6-d827da94096b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" input
+			(at 163.068 170.434 180)
+			(uuid "a226552f-be92-41c0-91fd-561af228baf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 169.672 167.894 90)
+			(uuid "c7b7ddb3-975a-439d-ba7f-a876e8e73fb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 289.306 96.266)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5febed0a-6d71-4d33-9e32-126d6baf4837")
+		(property "Sheetname" "Relay Driver6"
+			(at 289.306 95.5544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 289.306 114.6306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 319.278 99.314 0)
+			(uuid "9c828328-9eb3-4292-b226-f24b79f6bdf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 319.278 103.124 0)
+			(uuid "beb86a55-39cf-4119-86b1-b6ec1052e135")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 289.306 103.124 180)
+			(uuid "6b173091-eece-4f08-9c76-f82abb84122e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 303.53 114.046 270)
+			(uuid "404f00d9-cf0e-4bf7-9a9c-f37755b623dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 211.328 211.074)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "62ddb925-2570-4e27-a6a5-b825f7d87bb8")
+		(property "Sheetname" "Relay Driver11"
+			(at 211.328 210.3624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 211.328 229.4386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 241.3 214.122 0)
+			(uuid "992b4802-6fa3-4710-b438-582df5bfe499")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 241.3 217.932 0)
+			(uuid "0d6c9bf0-0801-4f49-b002-75c3846d7ce7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 211.328 217.932 180)
+			(uuid "8b7b26fb-9913-4589-815a-6aac559460d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 225.552 228.854 270)
+			(uuid "d70e6cb7-a2f0-48e1-a5f6-b8dfeba3b9e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 289.306 118.872)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6c06f731-1204-4271-9a02-70bea91b63fa")
+		(property "Sheetname" "Relay Driver7"
+			(at 289.306 118.1604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 289.306 137.2366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 319.278 121.92 0)
+			(uuid "3158af59-a8ae-4b2e-8d8e-063a66e316c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 319.278 125.73 0)
+			(uuid "6b45a4ba-7837-4156-a771-65e504ece171")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 289.306 125.73 180)
+			(uuid "5ef4eb90-4187-4885-ac9b-90af085fc013")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 303.53 136.652 270)
+			(uuid "62ff0711-dfff-42a6-b25b-e4997d5e5014")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.804 95.504)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "79820460-58ba-4602-bbf4-cb0747516095")
+		(property "Sheetname" "Relay Driver2"
+			(at 209.804 94.7924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 209.804 113.8686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 239.776 98.552 0)
+			(uuid "2e19f937-3340-4865-a236-04b3a7572a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 239.776 102.362 0)
+			(uuid "e6bcd6b1-ffff-4e04-b4fa-8e2c8c9a9265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 209.804 102.362 180)
+			(uuid "79b53147-772c-4e75-ba53-b31845430fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 224.028 113.284 270)
+			(uuid "d755d233-01ac-4fdd-81a7-2f0f8c9ad6ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.472 46.228)
+		(size 23.622 19.304)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "92fe207b-16a0-4ff0-b63a-1882c05805c3")
+		(property "Sheetname" "5v_power_converter"
+			(at 93.472 45.5164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_power_converter.kicad_sch"
+			(at 93.472 66.1166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_GND" input
+			(at 105.41 65.532 270)
+			(uuid "93ec82e6-4b63-47ec-8132-9f826e9078fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Power In" input
+			(at 93.472 52.324 180)
+			(uuid "f38105bf-1d2d-4dbd-9b95-6613c8d33275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_OUT" output
+			(at 117.094 52.324 0)
+			(uuid "2539c914-2f29-4690-9e6b-567b4487d06c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.372 45.72)
+		(size 25.146 17.272)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "949a3ec4-f701-46c4-9c10-5b60da4e1fa6")
+		(property "Sheetname" "3V3_LDO"
+			(at 55.372 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3V3_LOD.kicad_sch"
+			(at 55.372 63.5766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_GND" input
+			(at 67.31 62.992 270)
+			(uuid "18baae65-9957-4578-a552-134fb98352ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_IN" input
+			(at 55.372 51.308 180)
+			(uuid "99ca5910-2f9e-4194-9c56-79f94fc93a21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_OUT" output
+			(at 80.518 51.308 0)
+			(uuid "2afeb7da-6125-468f-9e72-0c066b3c2d3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 305.308 151.384)
+		(size 57.15 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c688c497-6748-46af-b6de-830a6476e945")
+		(property "Sheetname" "MAIN_MCU_64_PIN"
+			(at 305.308 150.6724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main_mcu_64_pin.kicad_sch"
+			(at 305.308 244.6786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 196.088)
+		(size 12.7 15.494)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d2391d1e-7ff3-4d65-a0cc-7ba4fe83f69c")
+		(property "Sheetname" "rs-422-module"
+			(at 163.83 195.3764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs-422-module.kicad_sch"
+			(at 163.83 212.1666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 176.53 201.422 0)
+			(uuid "32b59c4b-d942-4970-a305-ea697f3c9d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B" input
+			(at 176.53 203.962 0)
+			(uuid "b4708fb3-849d-4175-9cfa-628ad6a436b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D" input
+			(at 163.83 203.962 180)
+			(uuid "1697d85d-c5f3-4d16-b713-945ae909e359")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R" output
+			(at 163.83 201.422 180)
+			(uuid "e4e35e30-e142-4ed4-8136-cb7cd8c6938b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y" output
+			(at 176.53 206.502 0)
+			(uuid "22b3243a-eeec-4ede-9dca-f35bd53199a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Z" output
+			(at 176.53 209.042 0)
+			(uuid "c20a1987-7a5e-4895-8c62-1946b6529e75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 170.18 211.582 270)
+			(uuid "e4f48529-5494-4817-923f-02753b8de65c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 168.91 196.088 90)
+			(uuid "326b63ea-f640-4ada-9e7e-e54d49b934da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIO" input
+			(at 171.45 196.088 90)
+			(uuid "7ce43d3f-226a-45cd-845a-ceb5b72599f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 72.898)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d44de294-687a-493e-907e-7c707fac027b")
+		(property "Sheetname" "Heater SSR Driver"
+			(at 210.82 72.1864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 210.82 91.2626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 240.792 75.946 0)
+			(uuid "ecf9b8b1-5a68-4c96-b41d-0ea06f0e9386")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 240.792 79.756 0)
+			(uuid "48582ccb-755a-4188-bb71-3baa255b70e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 210.82 79.756 180)
+			(uuid "ec3b219a-b697-483c-94a4-ed1ae5567fe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 225.044 90.678 270)
+			(uuid "b1788683-2d8a-451b-b534-985b9cb9af97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 289.306 73.66)
+		(size 29.972 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f2e66989-074d-4f5d-847c-2b4d949047fc")
+		(property "Sheetname" "Relay Driver5"
+			(at 289.306 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay Driver.kicad_sch"
+			(at 289.306 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_COIL_IN" input
+			(at 319.278 76.708 0)
+			(uuid "696ad1f4-a928-427b-9b46-9628176d996f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_COIL_SW" input
+			(at 319.278 80.518 0)
+			(uuid "fb647921-b39a-4fc6-a440-827b4dfc61a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_CTRL" input
+			(at 289.306 80.518 180)
+			(uuid "017495f4-decb-4356-b7c8-a18f48aa1263")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 303.53 91.44 270)
+			(uuid "e0084146-6916-47d1-8efc-dc1f7e1bf623")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
