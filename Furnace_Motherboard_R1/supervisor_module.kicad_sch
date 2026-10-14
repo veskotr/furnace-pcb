@@ -855,7 +855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aca6552-208f-4e1a-92f3-240d2dbc97f3")
-		(property "Reference" "R38"
+		(property "Reference" "R34"
 			(at 127 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -919,7 +919,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/57b4129e-afdd-4a4f-bda5-255cd6f5afd3"
-					(reference "R38")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -942,7 +942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8011eac1-059d-46c0-b777-0f2a57c6b89d")
-		(property "Reference" "C25"
+		(property "Reference" "C28"
 			(at 125.73 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1006,7 +1006,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/57b4129e-afdd-4a4f-bda5-255cd6f5afd3"
-					(reference "C25")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -1030,7 +1030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d445124-9aec-454e-ad71-1d1f1f9238b5")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 166.37 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,7 +1112,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/57b4129e-afdd-4a4f-bda5-255cd6f5afd3"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1135,7 +1135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8225cd3-5581-47e4-a803-488b52ac0f4e")
-		(property "Reference" "C24"
+		(property "Reference" "C27"
 			(at 107.95 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1199,7 +1199,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/57b4129e-afdd-4a4f-bda5-255cd6f5afd3"
-					(reference "C24")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1223,7 +1223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e45dcafa-2be2-4821-ba92-2b94066a11bf")
-		(property "Reference" "R37"
+		(property "Reference" "R33"
 			(at 119.38 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1287,7 +1287,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/57b4129e-afdd-4a4f-bda5-255cd6f5afd3"
-					(reference "R37")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1310,7 +1310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcbd0567-ec73-4919-bf1e-daca974228e6")
-		(property "Reference" "C23"
+		(property "Reference" "C26"
 			(at 95.25 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1374,7 +1374,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/57b4129e-afdd-4a4f-bda5-255cd6f5afd3"
-					(reference "C23")
+					(reference "C26")
 					(unit 1)
 				)
 			)

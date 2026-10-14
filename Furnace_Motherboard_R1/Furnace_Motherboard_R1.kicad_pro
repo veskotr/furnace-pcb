@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.4564,
+          "width": 0.997699
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/vesko/projects/furnace-pcb/Furnace_Motherboard_R1/Fab_output/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -649,7 +649,7 @@
         "uuid": "43d4b116-7476-4705-a5a8-f2a03f21058e"
       }
     ],
-    "used_designators": "TP6-7,R39-40,JP3-4,J3,C26-34,#PWR25,U8",
+    "used_designators": "R44-52,D15-23,H1-4",
     "variants": []
   },
   "sheets": [
@@ -658,12 +658,12 @@
       "Root"
     ],
     [
-      "92fe207b-16a0-4ff0-b63a-1882c05805c3",
-      "5v_power_converter"
+      "24900e5b-3a22-4288-93d3-a27ded653cb3",
+      "Relay Driver12"
     ],
     [
-      "949a3ec4-f701-46c4-9c10-5b60da4e1fa6",
-      "3V3_LDO"
+      "d3da4011-e2ed-4967-9cb9-a18d3e32eb7d",
+      "Relay Driver13"
     ],
     [
       "26d4bebe-4b82-4591-a549-5ceac1283d49",
@@ -686,44 +686,24 @@
       "Heater SSR Driver"
     ],
     [
-      "79820460-58ba-4602-bbf4-cb0747516095",
-      "Relay Driver2"
+      "48e464aa-9d80-4ff6-9a73-2266e81b02f5",
+      "Relay Driver14"
     ],
     [
-      "1056d88a-16a5-42d3-bb29-3c8ae3066912",
-      "Relay Driver3"
-    ],
-    [
-      "18ebd437-513d-4e0a-9f24-1eda8b88acbb",
-      "Relay Driver4"
-    ],
-    [
-      "f2e66989-074d-4f5d-847c-2b4d949047fc",
-      "Relay Driver5"
-    ],
-    [
-      "5febed0a-6d71-4d33-9e32-126d6baf4837",
-      "Relay Driver6"
-    ],
-    [
-      "6c06f731-1204-4271-9a02-70bea91b63fa",
-      "Relay Driver7"
-    ],
-    [
-      "4f083164-2c1b-46ad-bac6-1cba0618d77d",
-      "Relay Driver8"
-    ],
-    [
-      "071ff54a-08fb-41e0-9e7a-bfc9396b9e11",
+      "fa7c25e5-1581-4b46-99fc-19b0d75efe3b",
       "Relay Driver9"
     ],
     [
-      "3d33f6fe-1c85-46b5-9f1f-6d75908b2892",
+      "f2ce6841-1431-45a9-bd58-378a99e2d35f",
       "Relay Driver10"
     ],
     [
-      "62ddb925-2570-4e27-a6a5-b825f7d87bb8",
+      "1abae34c-f83a-4b4b-8b43-876df955770d",
       "Relay Driver11"
+    ],
+    [
+      "be65c386-3bc7-429f-9691-1d5c01906c8a",
+      "power3v3a"
     ],
     [
       "3172dcfb-3c78-437a-858c-6ce7db97375b",
@@ -734,8 +714,12 @@
       "supervisor_module"
     ],
     [
-      "c688c497-6748-46af-b6de-830a6476e945",
-      "MAIN_MCU_64_PIN"
+      "32d44035-9950-48ff-b598-c10738c82de4",
+      "aux-rs485-module"
+    ],
+    [
+      "875f04a7-a6d6-4411-953b-287fe817b49d",
+      "24V_TO_5V_BUCK"
     ]
   ],
   "text_variables": {},

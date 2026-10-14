@@ -998,7 +998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e0dd4a-3bbc-4774-a9fa-09927b97cf84")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 83.82 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1062,7 +1062,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3172dcfb-3c78-437a-858c-6ce7db97375b"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -1080,7 +1080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b419c05-15da-4b1b-bbf3-f9ca25df120b")
-		(property "Reference" "R35"
+		(property "Reference" "R31"
 			(at 124.46 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1102,7 +1102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.142 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -1144,7 +1144,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3172dcfb-3c78-437a-858c-6ce7db97375b"
-					(reference "R35")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1162,7 +1162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5625415b-709a-4130-827f-9bee49a6830a")
-		(property "Reference" "C21"
+		(property "Reference" "C25"
 			(at 93.98 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1226,7 +1226,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3172dcfb-3c78-437a-858c-6ce7db97375b"
-					(reference "C21")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -1244,7 +1244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62f19af0-ea2e-4db3-b440-c1fc2f4e6658")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 133.35 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1266,7 +1266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.032 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -1308,7 +1308,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3172dcfb-3c78-437a-858c-6ce7db97375b"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1326,7 +1326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd3549f2-8112-40d5-a7e5-08bbebc6e1a8")
-		(property "Reference" "R36"
+		(property "Reference" "R30"
 			(at 115.57 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +1348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.252 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -1390,7 +1390,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3172dcfb-3c78-437a-858c-6ce7db97375b"
-					(reference "R36")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1408,7 +1408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3ad17d5-bec9-4b49-9195-e6e6df95df43")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 157.48 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1490,7 +1490,7 @@
 		(instances
 			(project "Furnace_Motherboard_R1"
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3172dcfb-3c78-437a-858c-6ce7db97375b"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)

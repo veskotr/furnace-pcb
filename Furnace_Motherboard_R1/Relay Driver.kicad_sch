@@ -5,6 +5,365 @@
 	(uuid "222f6e09-3254-4f59-a5cf-b940115f901c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -145,7 +504,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SM4007"
+		(symbol "Diode:US1B"
 			(pin_numbers
 				(hide yes)
 			)
@@ -167,7 +526,7 @@
 					)
 				)
 			)
-			(property "Value" "SM4007"
+			(property "Value" "US1B"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -177,7 +536,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_MELF"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -188,7 +547,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -199,7 +558,7 @@
 					)
 				)
 			)
-			(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+			(property "Description" "100V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -232,7 +591,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "Ultra Fast"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -243,7 +602,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*MELF*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -254,7 +613,7 @@
 					)
 				)
 			)
-			(symbol "SM4007_0_1"
+			(symbol "US1B_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -292,7 +651,7 @@
 					)
 				)
 			)
-			(symbol "SM4007_1_1"
+			(symbol "US1B_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -651,7 +1010,13 @@
 		(at 124.46 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22a343da-3f40-442d-b319-e1b9b641847e")
+		(uuid "65de87a7-23c5-400a-a4a0-5933c324b4e0")
+	)
+	(junction
+		(at 99.06 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aa5f568-878d-41bb-93e5-06c9171579ca")
 	)
 	(junction
 		(at 115.57 90.17)
@@ -661,13 +1026,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 90.17) (xy 105.41 90.17)
+			(xy 93.98 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e77499d-e9a1-4ab7-bde6-7f2da2c18461")
+	)
+	(wire
+		(pts
+			(xy 99.06 107.95) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a9e5cc-623f-4b40-86e4-2044f6b9ac05")
 	)
 	(wire
 		(pts
@@ -711,13 +1086,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 127 81.28)
+			(xy 99.06 100.33) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694ccd75-e869-49ea-8a05-c626d4944e7a")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f6e3497-7d27-4ece-92b6-0c44ad3aeb6f")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721dc045-6800-4c99-a2ee-5380396c245b")
 	)
 	(wire
 		(pts
@@ -741,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 73.66) (xy 127 73.66)
+			(xy 124.46 73.66) (xy 133.35 73.66)
 		)
 		(stroke
 			(width 0)
@@ -751,13 +1146,33 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 81.28) (xy 124.46 81.28)
+			(xy 133.35 81.28) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7de02c3-cddc-401d-9fce-64f56ee8d945")
+		(uuid "ca5a7b41-6972-402f-875a-e679e6e41f27")
+	)
+	(wire
+		(pts
+			(xy 133.35 73.66) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce89951-e19b-4dc3-b7ea-46e23c3a6bc2")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf70cec-0405-43c9-9d58-0531278e18ec")
 	)
 	(hierarchical_label "VSS"
 		(shape input)
@@ -770,27 +1185,16 @@
 		)
 		(uuid "3ef8781b-c9ee-49c9-b19e-7fda8b554a7e")
 	)
-	(hierarchical_label "RELAY_COIL_IN"
+	(hierarchical_label "VSS"
 		(shape input)
-		(at 127 73.66 0)
+		(at 99.06 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "690d1aa7-31e9-4257-b188-c9488cdb52ef")
-	)
-	(hierarchical_label "RELAY_COIL_SW"
-		(shape input)
-		(at 127 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b35502d2-7f60-4f9a-9aac-476408bab940")
+		(uuid "4b2711f1-2fea-4e39-992e-d147b9c96b4e")
 	)
 	(hierarchical_label "RELAY_CTRL"
 		(shape input)
@@ -826,7 +1230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09cb4d53-7f5e-4c94-9f47-45d82708eca7")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 109.22 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -880,59 +1284,153 @@
 			)
 		)
 		(pin "2"
-			(uuid "90ac9a62-f654-42dc-86db-9b057480918d")
+			(uuid "bbcea0f1-e261-4ee2-8abb-f0f42bd736c2")
 		)
 		(pin "1"
-			(uuid "b31d7cbc-a713-467b-b669-ca53deae9b3a")
+			(uuid "c33d0e5f-7936-48cc-ae3f-e40d5bd7e03c")
 		)
 		(instances
 			(project "Furnace_Motherboard_R1"
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/071ff54a-08fb-41e0-9e7a-bfc9396b9e11"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1abae34c-f83a-4b4b-8b43-876df955770d"
 					(reference "R28")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1056d88a-16a5-42d3-bb29-3c8ae3066912"
-					(reference "R16")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/24900e5b-3a22-4288-93d3-a27ded653cb3"
+					(reference "R1")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/18ebd437-513d-4e0a-9f24-1eda8b88acbb"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3d33f6fe-1c85-46b5-9f1f-6d75908b2892"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f083164-2c1b-46ad-bac6-1cba0618d77d"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/5febed0a-6d71-4d33-9e32-126d6baf4837"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/48e464aa-9d80-4ff6-9a73-2266e81b02f5"
 					(reference "R22")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/62ddb925-2570-4e27-a6a5-b825f7d87bb8"
-					(reference "R32")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "R18")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/6c06f731-1204-4271-9a02-70bea91b63fa"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/79820460-58ba-4602-bbf4-cb0747516095"
-					(reference "R14")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d3da4011-e2ed-4967-9cb9-a18d3e32eb7d"
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
-					(reference "R12")
+					(reference "R20")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2e66989-074d-4f5d-847c-2b4d949047fc"
-					(reference "R20")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2ce6841-1431-45a9-bd58-378a99e2d35f"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/fa7c25e5-1581-4b46-99fc-19b0d75efe3b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 138.43 78.74 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13687704-f9f5-4b79-8c27-8b93a8236346")
+		(property "Reference" "J1"
+			(at 140.97 78.7401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 140.97 76.2001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
+			(at 138.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b068a200-cec4-4ac9-8b9b-c9b4ed0df3ea")
+		)
+		(pin "2"
+			(uuid "8fd8bfbf-c5cd-4d9c-a618-acfa8d682275")
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1abae34c-f83a-4b4b-8b43-876df955770d"
+					(reference "J11")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/24900e5b-3a22-4288-93d3-a27ded653cb3"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/48e464aa-9d80-4ff6-9a73-2266e81b02f5"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d3da4011-e2ed-4967-9cb9-a18d3e32eb7d"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2ce6841-1431-45a9-bd58-378a99e2d35f"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/fa7c25e5-1581-4b46-99fc-19b0d75efe3b"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -950,7 +1448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27d89e3d-19e3-47b1-93d4-732bcbb24a3e")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 118.11 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1006,59 +1504,43 @@
 			)
 		)
 		(pin "1"
-			(uuid "4299f656-0e4f-43f0-b039-b77c03ba3156")
+			(uuid "9be4e1d3-43e2-443b-b1fb-77e9d8768c20")
 		)
 		(pin "2"
-			(uuid "ef1d83c4-0e98-423c-8198-8828ad4b0a2f")
+			(uuid "245271a5-4a68-4725-9ca2-ad7b632d3b89")
 		)
 		(instances
 			(project "Furnace_Motherboard_R1"
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/071ff54a-08fb-41e0-9e7a-bfc9396b9e11"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1abae34c-f83a-4b4b-8b43-876df955770d"
 					(reference "R29")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1056d88a-16a5-42d3-bb29-3c8ae3066912"
-					(reference "R17")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/24900e5b-3a22-4288-93d3-a27ded653cb3"
+					(reference "R2")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/18ebd437-513d-4e0a-9f24-1eda8b88acbb"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3d33f6fe-1c85-46b5-9f1f-6d75908b2892"
-					(reference "R31")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f083164-2c1b-46ad-bac6-1cba0618d77d"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/5febed0a-6d71-4d33-9e32-126d6baf4837"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/48e464aa-9d80-4ff6-9a73-2266e81b02f5"
 					(reference "R23")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/62ddb925-2570-4e27-a6a5-b825f7d87bb8"
-					(reference "R33")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "R19")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/6c06f731-1204-4271-9a02-70bea91b63fa"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/79820460-58ba-4602-bbf4-cb0747516095"
-					(reference "R15")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d3da4011-e2ed-4967-9cb9-a18d3e32eb7d"
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
-					(reference "R13")
+					(reference "R21")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2e66989-074d-4f5d-847c-2b4d949047fc"
-					(reference "R21")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2ce6841-1431-45a9-bd58-378a99e2d35f"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/fa7c25e5-1581-4b46-99fc-19b0d75efe3b"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1087,7 +1569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20N04-MS"
+		(property "Value" "BSS606N"
 			(at 128.27 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1135,61 +1617,45 @@
 			)
 		)
 		(pin "2"
-			(uuid "11ab621c-6e4e-4fca-875b-c8ed21485e81")
+			(uuid "046a2d80-ff70-4dc9-89e3-727d0169edd9")
 		)
 		(pin "1"
-			(uuid "e9f130aa-3aa1-450f-bdd5-0e11972db3c7")
+			(uuid "afa8679c-497e-4e7a-b0c6-5a5aead7c3e1")
 		)
 		(pin "3"
-			(uuid "64b8e385-ba4f-450a-9bce-46b0c6faa7c1")
+			(uuid "a1a6e3b6-be31-4466-a6cb-d14dd9c7ed13")
 		)
 		(instances
 			(project "Furnace_Motherboard_R1"
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/071ff54a-08fb-41e0-9e7a-bfc9396b9e11"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1056d88a-16a5-42d3-bb29-3c8ae3066912"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/18ebd437-513d-4e0a-9f24-1eda8b88acbb"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3d33f6fe-1c85-46b5-9f1f-6d75908b2892"
-					(reference "Q11")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f083164-2c1b-46ad-bac6-1cba0618d77d"
-					(reference "Q9")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/5febed0a-6d71-4d33-9e32-126d6baf4837"
-					(reference "Q7")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/62ddb925-2570-4e27-a6a5-b825f7d87bb8"
-					(reference "Q12")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/6c06f731-1204-4271-9a02-70bea91b63fa"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1abae34c-f83a-4b4b-8b43-876df955770d"
 					(reference "Q8")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/79820460-58ba-4602-bbf4-cb0747516095"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/24900e5b-3a22-4288-93d3-a27ded653cb3"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/48e464aa-9d80-4ff6-9a73-2266e81b02f5"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
 					(reference "Q3")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d3da4011-e2ed-4967-9cb9-a18d3e32eb7d"
 					(reference "Q2")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2e66989-074d-4f5d-847c-2b4d949047fc"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2ce6841-1431-45a9-bd58-378a99e2d35f"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/fa7c25e5-1581-4b46-99fc-19b0d75efe3b"
 					(reference "Q6")
 					(unit 1)
 				)
@@ -1197,8 +1663,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SM4007")
-		(at 121.92 77.47 270)
+		(lib_id "Device:LED")
+		(at 99.06 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1207,31 +1673,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7bb1ce5a-8789-42f7-a209-775e51959259")
-		(property "Reference" "D3"
-			(at 124.46 76.1999 90)
+		(uuid "8598cf88-cf22-4a89-9a97-7a566bef4d8e")
+		(property "Reference" "D15"
+			(at 102.87 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "SM4007"
-			(at 124.46 78.7399 90)
+		(property "Value" "LED"
+			(at 102.87 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 117.475 77.47 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 99.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1241,8 +1707,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
-			(at 121.92 77.47 0)
+		(property "Datasheet" ""
+			(at 99.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1252,19 +1718,8 @@
 				)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
-			(at 121.92 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 121.92 77.47 0)
+		(property "Description" "Light emitting diode"
+			(at 99.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1275,7 +1730,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 77.47 0)
+			(at 99.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1285,60 +1740,286 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "1b0420ec-5835-4b4f-a79e-88b2b9850586")
-		)
 		(pin "2"
-			(uuid "7b251428-fa7c-42ef-9152-db913fa167d2")
+			(uuid "966cd464-3d94-4474-931b-a9424b3f513b")
+		)
+		(pin "1"
+			(uuid "7ffbe10b-6f4a-44d6-a061-4a0d66c2a84a")
 		)
 		(instances
 			(project "Furnace_Motherboard_R1"
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/071ff54a-08fb-41e0-9e7a-bfc9396b9e11"
-					(reference "D12")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1abae34c-f83a-4b4b-8b43-876df955770d"
+					(reference "D22")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1056d88a-16a5-42d3-bb29-3c8ae3066912"
-					(reference "D6")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/24900e5b-3a22-4288-93d3-a27ded653cb3"
+					(reference "D15")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/18ebd437-513d-4e0a-9f24-1eda8b88acbb"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/3d33f6fe-1c85-46b5-9f1f-6d75908b2892"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f083164-2c1b-46ad-bac6-1cba0618d77d"
-					(reference "D11")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/48e464aa-9d80-4ff6-9a73-2266e81b02f5"
+					(reference "D19")
 					(unit 1)
 				)
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
-					(reference "D3")
+					(reference "D17")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/5febed0a-6d71-4d33-9e32-126d6baf4837"
-					(reference "D9")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/62ddb925-2570-4e27-a6a5-b825f7d87bb8"
-					(reference "D14")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/6c06f731-1204-4271-9a02-70bea91b63fa"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/79820460-58ba-4602-bbf4-cb0747516095"
-					(reference "D5")
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d3da4011-e2ed-4967-9cb9-a18d3e32eb7d"
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
-					(reference "D4")
+					(reference "D18")
 					(unit 1)
 				)
-				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2e66989-074d-4f5d-847c-2b4d949047fc"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2ce6841-1431-45a9-bd58-378a99e2d35f"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/fa7c25e5-1581-4b46-99fc-19b0d75efe3b"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:US1B")
+		(at 124.46 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d056169a-a9bb-4725-8bc3-247dce1d0c0c")
+		(property "Reference" "D1"
+			(at 127 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "US1B"
+			(at 127 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 120.015 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0af66df0-453f-4922-b407-23291fb0f73e")
+		)
+		(pin "1"
+			(uuid "4caa7922-8cfc-449f-afbf-3e4cd14030e0")
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1abae34c-f83a-4b4b-8b43-876df955770d"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/24900e5b-3a22-4288-93d3-a27ded653cb3"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/48e464aa-9d80-4ff6-9a73-2266e81b02f5"
 					(reference "D8")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d3da4011-e2ed-4967-9cb9-a18d3e32eb7d"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2ce6841-1431-45a9-bd58-378a99e2d35f"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/fa7c25e5-1581-4b46-99fc-19b0d75efe3b"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d94b2618-35c0-48d7-8c2e-71eb19789546")
+		(property "Reference" "R44"
+			(at 101.6 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 101.6 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.838 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0509c273-cf57-4f1f-a5dd-f52f505b873c")
+		)
+		(pin "1"
+			(uuid "70fbb5e8-a824-4ba8-ba36-3f4304a6e3b0")
+		)
+		(instances
+			(project "Furnace_Motherboard_R1"
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/1abae34c-f83a-4b4b-8b43-876df955770d"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/24900e5b-3a22-4288-93d3-a27ded653cb3"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/48e464aa-9d80-4ff6-9a73-2266e81b02f5"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/4f7589b5-9baa-4b4e-937a-b69529cb529b"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d3da4011-e2ed-4967-9cb9-a18d3e32eb7d"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/d44de294-687a-493e-907e-7c707fac027b"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/f2ce6841-1431-45a9-bd58-378a99e2d35f"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/43d4b116-7476-4705-a5a8-f2a03f21058e/fa7c25e5-1581-4b46-99fc-19b0d75efe3b"
+					(reference "R49")
 					(unit 1)
 				)
 			)
